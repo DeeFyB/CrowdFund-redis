@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@font-face {
+    font-family: FiraGo;
+    src: url(../FiraGO.ttf);
+}
+
+
+
+
+/* Navigation */
+
+
+.menu {
+    width: 23.55px;
+    height: 23.55px;
+    margin-top: 29.73px;
+}
+
+.crowdfund {
+    margin-left: 23.38px;
+    width: 175px;
+    height: 27.45px;
+}
+
+.kateb {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    margin-left: 14px !important;
+    margin: 0;
+}
+
+.dropdown-menu {
+    background-color: transparent 100% !important;
+    border: none !important;
+    width: 215px !important;
+}
+
+.btn1 {
+    border: none !important;
+}
+
+.btn1:focus {
+    box-shadow: -6px 0px 8px 0px #00FFA9 !important;
+    border: none !important;
+}
+
+.shape1 {
+    border: none !important;
+}
+
+.shape1:active {
+    border: none !important;
+}
+
+.dropdown-item {
+    font-family: FiraGo !important;
+    text-align: center !important;
+    transition: all .3s !important;
+    margin-top: 10px !important;
+    background-color: transparent !important;
+}
+
+.dropdown-item:active {
+    background-color: transparent !important;
+}
+
+.dropdown-item:hover {
+    color: #00FFA9 !important;
+    border-radius: 5px !important;
+    transform: scale(1.1);
+    box-shadow: 6px 0px 12px 0px #00FFA9;
+}
+
+.items1 {
+    font-family: FiraGo;
+    text-decoration: none !important;
+    transition: all.3s !important;
+    padding: 5px !important;
+    color: #000000;
+}
+
+.items1:hover {
+    color: #00FFA9;
+    transform: scale(1.2);
+}
+
+  .usermenu {
+    width: 15px;
+    height: 8px;
+  }
+
+  .signed {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 2px solid #00FFA9;
+  }
+
+  .content1 {
+    color: #000000;
+    font-family: FiraGo;
+    text-align: center;
+    margin-top: 8px;
+    transition: all .3s;
+  }
+
+/* Main Container */
+
+
+
+
+.h1-terms {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    color: black;
+}
+
+.p-read {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9B9B9B;
+    margin-top: 35px;
+    width: 420px;
+    padding-right: 40px;
+}
+
+.downloadbtn {
+    width: 273px;
+    height: 60px;
+    border: 2px solid #5736B8;
+    border-radius: 50px;
+    background-color: white;
+    color: #5736B8;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 58px;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+}
+
+.downloadbtn:hover {
+    border: 2px solid black;
+    color: black;
+}
+
+.downloadarrow path {
+    transition: all .3s;
+}
+
+.downloadbtn:hover .downloadarrow path {
+    fill: black;
+}
+
+.ellipse5 {
+    top: 0px;
+    right: 0px;
+}
+
+.docs {
+    top: 82.39px;
+    right: 96.86px;
+}
+
+
+
+/* Footer */
+
+
+.copyright19 {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+.contact {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    transition: all .3s;
+}
+
+.contact:hover {
+    color: #00FFA9;
+}
+
+.contact::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: -5px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.contact:hover::after {
+    height: 100% !important;
+}
+
+.contact::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: 57px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.contact:hover::before {
+    height: 100% !important;
+}
+
+.help {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-left: 36px;
+    position: relative;
+    transition: all .3s;
+}
+
+.help:hover {
+    color: #00FFA9;
+}
+
+.help::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: -5px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.help:hover::after {
+    height: 100% !important;
+}
+
+.help::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: 32px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.help:hover::before {
+    height: 100% !important;
+}
+
+.termsofuse1 {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-left: 35px;
+    position: relative;
+    transition: all .3s;
+}
+
+.termsofuse1:hover {
+    color: #00FFA9;
+}
+
+.termsofuse1::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: -5px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.termsofuse1:hover::after {
+    height: 100% !important;
+}
+
+.termsofuse1::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: 92px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.termsofuse1:hover::before {
+    height: 100% !important;
+}
+
+.privacypolicy1 {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-left: 42px;
+    position: relative;
+    transition: all .3s;
+}
+
+.privacypolicy1:hover {
+    color: #00FFA9;
+}
+
+.privacypolicy1::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: -5px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.privacypolicy1:hover::after {
+    height: 100% !important;
+}
+
+.privacypolicy1::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: 101px !important;
+    height: 0% !important;
+    width: 3px !important;
+    background-color: #00FFA9 !important;
+    transition: all .3s !important;
+}
+
+.privacypolicy1:hover::before {
+    height: 100% !important;
+}
+
+.twitter path {
+    width: 17px;
+    height: 14px;
+    transition: all .3s;
+}
+
+.twitter path:hover {
+    fill: #1D9BF0;
+}
+
+.facebook path {
+    width: 8px;
+    height: 17px;
+    transition: all .3s;
+}
+
+.facebook {
+    margin-left: 18px;
+}
+
+.facebook path:hover {
+    fill: #1877F2;
+}
+
+.youtube {
+    margin-left: 20px;
+    margin-right: 21px;
+}
+
+.youtube path {
+    width: 20px;
+    height: 14px;
+    transition: all .3s;
+}
+
+.youtube path:hover {
+    fill: #FF0000;
+}
